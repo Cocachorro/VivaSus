@@ -26,6 +26,12 @@ input{
     border-radius: 4px;
 }
 
+input:focus{
+    outline: none;
+    border-color: #005696;
+    box-shadow: 0 0 5px rgba(0, 86, 150, 0.2);
+}
+
 label{
     text-align: left;
     font-size: 14px;
@@ -34,7 +40,7 @@ label{
 }
 
 button{
-    background-color: #0056b3;
+    background-color: #005696;
     color: white;
     padding: 10px;
     border: none;
@@ -44,5 +50,10 @@ button{
 }
 
 button:hover{
-    background-color: #004494;
+    background-color:  #004578;
+    transition: 0.3s;
+}
+
+a{
+    color: black;
 }
