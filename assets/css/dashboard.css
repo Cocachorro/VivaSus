@@ -32,3 +32,30 @@ header h1 a:hover {
     background-color: #F4F7F9;
     color: #1A2B3C;
 }
+.card_container{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    width: fit-content;
+    min-width: 200px;
+    border: 1px solid rgba(0, 86, 150, 1);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 86, 150, 0.2);
+    text-decoration: none;
+    color: #005696;
+    background-color: #FFFFFF;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card_container:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 86, 150, 0.2);
+}
+.icone{
+    width: 40px;
+    display: block;
+}
+.descricao{
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
