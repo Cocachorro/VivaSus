@@ -4,8 +4,8 @@ body{
     align-items: center;
 }
 
-main{
-    background-color: white;
+.caixa_login{
+    background-color: var(--cor-branco);
     padding: 2rem;
     border-radius: 8px;
     width: 350px;
@@ -20,6 +20,13 @@ form{
     margin-top: 20px;
 }
 
+label{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
 input{
     padding: 10px;
     border: 1px solid #ccc;
@@ -28,20 +35,13 @@ input{
 
 input:focus{
     outline: none;
-    border-color: #005696;
-    box-shadow: 0 0 5px rgba(0, 86, 150, 0.2);
-}
-
-label{
-    text-align: left;
-    font-size: 14px;
-    margin-bottom: -10px;
-    font-weight: bold;
+    border-color: var(--cor-primaria);
+    box-shadow: 0 0 5px var(--cor-sombra);
 }
 
 button{
-    background-color: #005696;
-    color: white;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
     padding: 10px;
     border: none;
     border-radius: 4px;
@@ -50,10 +50,6 @@ button{
 }
 
 button:hover{
-    background-color:  #004578;
+    background-color:  var(--cor-primaria-hover);
     transition: 0.3s;
-}
-
-a{
-    color: #000;
 }
