@@ -1,6 +1,17 @@
 header {
   background-color: var(--cor-branco);
 }
+nav a{
+  color: var(--cor-primaria);
+  font-weight: bold;
+}
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 .card_container {
   display: flex;
   padding: 10px 20px;
@@ -24,6 +35,13 @@ header {
   width: 40px;
   display: block;
   margin-right: 15px;
+}
+#sino{
+  width: 25px;
+  transition: transform 0.2s;
+}
+#sino:hover{
+  transform: translateY(-5px);
 }
 .descricao {
   padding: 2px;
