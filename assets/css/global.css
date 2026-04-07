@@ -20,7 +20,7 @@ body {
   min-height: 100vh;
   padding-top: 80px;
 }
-header {
+header { /*Cabeçalho / barra de navegação*/
   background-color: var(--cor-fundo);
   box-shadow: 0 0 10px var(--cor-sombra);
   width: 100%;
@@ -30,7 +30,7 @@ header {
   left: 0;
   z-index: 1000;
 }
-.header_container {
+.header_container { /*Div geral*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,4 +60,16 @@ nav {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+.icone { /*Icones no geral e os grandes*/
+  width: 40px;
+  display: block;
+  margin-right: 15px;
+}
+.icone_nav { /*Icones da barra de navegação*/
+  width: 25px;
+  transition: transform 0.2s;
+}
+.icone_nav:hover {
+  transform: translateY(-5px);
 }

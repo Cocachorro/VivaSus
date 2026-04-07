@@ -12,7 +12,7 @@ main {
   flex-wrap: wrap;
   gap: 20px;
 }
-.card_container {
+.card_container { /*Cards iterativos*/
   display: flex;
   padding: 10px 20px;
   justify-content: center;
@@ -30,18 +30,6 @@ main {
 .card_container:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px var(--cor-sombra);
-}
-.icone {
-  width: 40px;
-  display: block;
-  margin-right: 15px;
-}
-.icone_nav {
-  width: 25px;
-  transition: transform 0.2s;
-}
-.icone_nav:hover {
-  transform: translateY(-5px);
 }
 .descricao {
   padding: 2px;
