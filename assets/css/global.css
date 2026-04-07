@@ -30,7 +30,7 @@ header {
   left: 0;
   z-index: 1000;
 }
-.header_container{
+.header_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,7 +56,7 @@ header h1 a:hover {
   background-color: var(--cor-fundo);
   color: var(--cor-texto-escuro);
 }
-nav{
+nav {
   display: flex;
   gap: 20px;
   align-items: center;
