@@ -39,5 +39,15 @@ main {
 }
 
 .noticias{/*Divs notícias*/
-  
+  width: 500px;
+  padding: 8px;
+  display: inline-block;
+  border: 1px solid var(--cor-bordinha);
+  border-radius: 8px;
+}
+
+.titulo_not{
+  width: 100%;
+  margin-bottom: 15px;
+  display: inline-block;
 }

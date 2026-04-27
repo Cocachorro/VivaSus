@@ -6,6 +6,7 @@
   --cor-branco: #ffffff;
   --cor-preto: #000000;
   --cor-sombra: rgba(0, 86, 150, 0.2);
+  --cor-bordinha: #9E9E9E;
 }
 * {
   margin: 0;
