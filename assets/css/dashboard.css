@@ -11,6 +11,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
+  padding: 20px;
 }
 .card_container { /*Cards iterativos*/
   display: flex;
@@ -25,7 +27,6 @@ main {
   transition:
     transform 0.2s,
     box-shadow 0.2s;
-  margin: 20px;
 }
 .card_container:hover {
   transform: translateY(-5px);
@@ -39,10 +40,12 @@ main {
 }
 
 .noticias{/*Divs notícias*/
-  width: 500px;
-  padding: 8px;
-  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--cor-branco);
+  border-left: 5px solid var(--cor-primaria);
   border: 1px solid var(--cor-bordinha);
+  margin-bottom: 15px;
   border-radius: 8px;
 }
 
