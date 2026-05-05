@@ -4,36 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viva SUS - Seu Perfil</title>
-    <link rel="stylesheet" href="../../assets/css/global.css" />
-    <link rel="stylesheet" href="../../assets/css/perfil.css" />
-    <link rel="stylesheet" href="../../assets/css/dashboard.css" />
+    <link rel="stylesheet" href="../assets/css/global.css" />
+    <link rel="stylesheet" href="../assets/css/perfil.css" />
+    <link rel="stylesheet" href="../assets/css/dashboard.css" />
   </head>
   <body>
     <header>
-      <!-- Barra de navegação e logo -->
       <div class="header_container">
         <div class="logo">
-          <h1><a href="../../dashboard.html">Viva SUS</a></h1>
-          <!-- Logo -->
+          <h1><a href="../dashboard.html">Viva SUS</a></h1>
         </div>
         <nav>
-          <a href="../perfil.html">
-            <!-- Direcionar para perfil -->
+          <a href="perfil.html">
             <div>
               <img
                 style="width: 33px"
                 class="icone_nav icone"
-                src="../../assets/media/images/perfil.png"
+                src="../assets/media/images/perfil.png"
                 alt="Ícone perfil"
               />
             </div>
           </a>
-          <a href="../notificacao.html">
-            <!-- Direcionar para notificações -->
+          <a href="notificacao.html">
             <div>
               <img
                 class="icone_nav icone"
-                src="../../assets/media/images/sino_notif.png"
+                src="../assets/media/images/sino_notif.png"
                 alt="Ícone notificação"
               />
             </div>
@@ -42,8 +38,47 @@
       </div>
     </header>
     <main>
-        <h2>Bem-vindo ao seu perfil, [Nome do Usuário]!</h2>
-        <p>Aqui você pode acessar suas informações pessoais, histórico de atendimentos, receitas e vacinas.</p>
+      <div class="msg_bemvindo">
+        <h2>Bem-vindo ao seu perfil, Joãozinho!</h2>
+        <p>
+          Aqui você pode acessar suas informações pessoais, histórico de
+          atendimentos, receitas e vacinas.
+        </p>
+      </div>
+
+      <div class="cartao_principal">
+        <img
+          src="../assets/media/images/foto_perfil.png"
+          alt="Imagem de foto de perfil"
+          class="foto_usuario"
+        />
+
+        <div class="informacoes_perfil">
+          <section class="dados_pessoais" id="dados_pessoais">
+            <div>
+              <h3>Dados Pessoais</h3>
+              <p><strong>Nome:</strong> Joãozinho Maldade Pura</p>
+              <p><strong>Data de Nascimento:</strong> 13/08/2000</p>
+              <p><strong>CPF:</strong> 123.456.789.10</p>
+              <p><strong>Carteirinha:</strong> 123456789101112</p>
+              <p><strong>Alergias:</strong> Dipirona, Plasil</p>
+              <p><strong>Comorbidades:</strong> Hipertenso, Diabético, Cardiopata</p>
+              <p><strong>Tipo Sanguíneo:</strong> O</p>
+            </div>
+          </section>
+
+          <section class="dados_pessoais" id="endereco_e_contato">
+            <div>
+              <h3>Endereço e Contato</h3>
+              <p><strong>Endereço:</strong> Rua Luiz Fotocópias Crucilândia</p>
+              <p><strong>Telefone Particular:</strong> +55(00)4002-8922</p>
+              <p><strong>Telefones de Emergência:</strong> +55(00)4002-8922</p>
+              <p><strong>UBS de Referência:</strong> UBS Crucilândia</p>
+            </div>
+          </section>
+        </div>
+      </div>
+      
     </main>
   </body>
 </html>

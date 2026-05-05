@@ -43,8 +43,8 @@ main {
   width: 100%;
   padding: 20px;
   background-color: var(--cor-branco);
-  border-left: 5px solid var(--cor-primaria);
   border: 1px solid var(--cor-bordinha);
+  border-left: 5px solid var(--cor-primaria);
   margin-bottom: 15px;
   border-radius: 8px;
 }
